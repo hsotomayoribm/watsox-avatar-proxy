@@ -14,7 +14,7 @@ RUN npm install --only=prod
 
 ENV NODE_ENV production
 
-EXPOSE 8080
+EXPOSE 3002
 
 # start app
 CMD ["npm", "run", "start"]
